@@ -1,4 +1,8 @@
 body {
-  background-color: aqua;
+  background-color: white;
   color: black;
+}
+.para {
+  color: blue;
+  background-color: lightgray;
 }
