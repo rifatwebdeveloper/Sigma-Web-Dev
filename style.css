@@ -6,3 +6,6 @@ body {
   color: blue;
   background-color: lightgray;
 }
+td{
+  border: 1px solid black;
+}
