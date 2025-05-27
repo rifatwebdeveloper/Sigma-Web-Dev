@@ -4,4 +4,9 @@
 .yellow {
   background-color: yellow;
 }
-#first{background-color: aquamarine;}
+#idsle {
+  background-color: aquamarine;
+}
+a:visited {
+  color: aqua;
+}
