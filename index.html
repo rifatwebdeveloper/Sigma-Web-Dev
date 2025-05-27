@@ -6,36 +6,27 @@
     <title>Index Page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>Welcome to the Index Page</h1>
-    <p>This is a simple HTML page with a form.</p>
 
-    <form action="post">
+  <body>
+    <h1>User Data</h1>
+    <form action>
       <div>
-        <label for="username">Enter Your Username</label>
+        <label for="name">Enter your name: </label>
         <input
-          id="name"
           type="text"
+          id="name"
           name="name"
           placeholder="Enter your name"
+          required
         />
       </div>
       <div>
-        <input type="radio" id="male" name="gender" value="male" />
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female" />
-        <label for="female">Female</label>
+        <label for="city">Enter your City</label
+        ><input type="text" id="city" placeholder="Enter Your City" />
       </div>
       <div>
-        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
-        <label for="subscribe">Subscribe to newsletter</label>
-      </div>
-      <div>
-        <select name="fruits">
-          <option value="apple">Apple</option>
-          <option value="banana">Banana</option>
-          <option value="cherry">Cherry</option>
-        </select>
+        <label for="pincode">Enter your Pincode</label
+        ><input type="text" id="pincode" placeholder="Enter Your Pincode" />
       </div>
     </form>
   </body>
