@@ -7,52 +7,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Image Of train</h1>
-    <img
-      width="230"
-      height="230"
-      src="https://images.unsplash.com/photo-1535535112387-56ffe8db21ff?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8"
-      alt="train Image"
-    />
-    <table>
-      <caption>
-        Train Shcedule
-      </caption>
-      <tr>
-        <th>Name</th>
-        <th>Destination</th>
-        <th>Time</th>
-      </tr>
+    <h1>Welcome to the Index Page</h1>
+    <p>This is a simple HTML page with a form.</p>
 
-      <tr>
-        <td rowspan="2">Halirail</td>
-        <td>Kanpur</td>
-        <td rowspan="2">8</td>
-      </tr>
-      <tr>
-        <td>kolkata</td>
-      </tr>
-      <tr>
-        <td>newRail</td>
-        <td colspan="2">Delhi</td>
-      </tr>
-      <tr>
-        <td>ShitRail</td>
-        <td>Mumbai</td>
-        <td>9</td>
-      </tr>
-    </table>
-
-    <ul type="square">
-      <li>hi</li>
-      <li>hi</li>
-      <li>hi</li>
-    </ul>
-    <ol>
-      <li>hi</li>
-      <li>hi</li>
-      <li>hi</li>
-    </ol>
+    <form action="post">
+      <div>
+        <label for="username">Enter Your Username</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+        <label for="subscribe">Subscribe to newsletter</label>
+      </div>
+      <div>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+      </div>
+    </form>
   </body>
-  <script class="src"></script>
 </html>
