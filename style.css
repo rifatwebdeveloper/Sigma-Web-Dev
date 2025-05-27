@@ -1,11 +1,7 @@
-body {
-  background-color: white;
-  color: black;
+.red {
+  color: red;
 }
-.para {
-  color: blue;
-  background-color: lightgray;
+.yellow {
+  background-color: yellow;
 }
-td{
-  border: 1px solid black;
-}
+#first{background-color: aquamarine;}
